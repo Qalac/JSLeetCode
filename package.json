@@ -1,0 +1,8 @@
+{
+  "name": "JSleetcode",
+  "version": "1.0.0",
+  "description": "Problem set solutions implemented in JavaScript",
+  "main": "index.js",
+  "author": "Qalac <officialqalac@gmail.com>",
+  "license": "MIT"
+}
