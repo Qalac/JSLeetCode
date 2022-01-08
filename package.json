@@ -4,5 +4,12 @@
   "description": "Problem set solutions implemented in JavaScript",
   "main": "index.js",
   "author": "Qalac <officialqalac@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
 }
