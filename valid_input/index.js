@@ -13,8 +13,15 @@ Constraints:
     
  */
 
-function validString(s) {
-    return "VALID"
+function closeOpenBrackets() {
+    var s = "()[]{}"
 }
+
+
+function validString() {
+    return closeOpenBrackets();
+}
+
+validString();
 
 module.exports = {validString};
