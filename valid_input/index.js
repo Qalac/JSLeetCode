@@ -13,15 +13,24 @@ Constraints:
     
  */
 
-function closeOpenBrackets() {
-    var s = "()[]{}"
+
+function validString(s) {
+    var result = "VALID"
+    for (let index = 0; index < s.length; index++) {
+        if (s[index] == "(" && s[index + 1] != ")") {
+            result = "INVALID";
+            break;
+        } 
+        else if (s[index] == "[" && s[index + 1] != "]") {
+            result = "INVALID";
+        } 
+        else if (s[index] == "{" && s[index + 1] != "}") {
+            result = "INVALID"
+        }
+    }
+    return result;
 }
 
-
-function validString() {
-    return closeOpenBrackets();
-}
-
-validString();
+// console.log(validString('))[]{}'));
 
 module.exports = {validString};

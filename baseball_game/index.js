@@ -50,6 +50,9 @@ function sumOfScores(arr) {
     }
     return sumArray(result);
 }
+
+
+
 module.exports = {sumOfScores};
 
 
